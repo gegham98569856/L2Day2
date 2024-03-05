@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="filter" id="filter">
+        <label for="Category">Category:</label>
+        <select  id="Category" onchange="filter()">
+            <option value="All">All</option>
+            <option value="Home">Home</option>
+            <option value="Apparel">Apparel</option>
+            <option value="Electronics">Electronics</option>
+        </select><br><br>
+        <label for="Tags">Tags:</label><br>
+        <input type="checkbox" id="Eco-friendly" onclick="filterData()">
+        <label for="Eco-friendly">Eco-friendly</label><br>
+        <input type="checkbox" id="New" onclick="filterData()">
+        <label for="New" >New</label><br>
+        <input type="checkbox" id="Sale" onclick="filterData()">
+        <label for="Sale">Sale</label>
+    </div>
+    <div id="info" class="info"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

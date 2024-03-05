@@ -1,0 +1,30 @@
+.searchInput{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    border-top: 2px solid rgba(0, 0, 0, 0);
+    height: 800px;
+    width: 100%;
+}
+.filter{
+    width: 100%;
+    height: auto;
+    background-color: wheat;
+    border: 1px solid black;
+    padding: 10px;
+}
+.info{
+    border: 1px solid black;
+}
+div{
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    background-color: rgba(122, 122, 122, 0.328);
+    padding-left: 10px;
+    border-left: 0px;
+}
+.highlight {
+    background-color: yellow;
+  }
+  
